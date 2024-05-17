@@ -10,11 +10,20 @@ export default function Home () {
 
     <main className={Styles.main}>
     
-      <div>
+      <nav className={Styles.navbar}>
       <Link href="/login">
-        entre
+        Login
       </Link>
-      </div>
+      <Link href="/login">
+        Login
+      </Link>
+      <Link href="/login">
+        Login
+      </Link>
+      <Link href="/login">
+        Login
+      </Link>
+      </nav>
       <Principal />
       
       

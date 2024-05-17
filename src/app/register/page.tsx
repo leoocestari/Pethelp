@@ -1,10 +1,10 @@
 import Link from 'next/link'
-import Styles from './login.module.scss'
+import Styles from './register.module.scss'
 import Image from 'next/image'
 import Indoor from "/public/images/indoor.svg"
 
 
-function Login () {
+function Register () {
   return(
 
   <section className={Styles.container}>
@@ -41,4 +41,4 @@ function Login () {
 
 }
 
-export default Login
+export default Register

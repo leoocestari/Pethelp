@@ -8,7 +8,9 @@ function Principal () {
   return(
 
   <section className={Styles.container}>
-    <h1>abubla</h1>
+    <div className={Styles.left}>
+      <h1>abubla</h1>
+    </div>
 
    </section>
 

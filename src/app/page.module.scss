@@ -1,1 +1,10 @@
-
+.navbar{
+  gap: 32px;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 6vh;
+  align-items: center;
+  justify-content: end;
+  padding: 32px;
+}
