@@ -1,0 +1,48 @@
+.container{
+  padding:  0 9.25rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.left{
+  background-color: #121212;;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  padding: 50px;
+}
+
+.filter{
+  background-color: black;
+  width: 250px;
+  height: 1000px;
+}
+
+.right{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: auto;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.card{
+  width: 270px;
+  height: 350px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background: #121212;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
