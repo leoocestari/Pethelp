@@ -1,0 +1,93 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  background-color: #121212;
+  max-width: 100%;
+  margin: 0 auto;
+
+
+.left{
+  
+  flex-direction: row;
+  gap: 25px;
+  width: 450px;
+  height: 1250px;
+  padding: 50px;
+}
+
+.filter{
+  background-color: rgb(44, 36, 59);
+  flex-direction: column;
+  width: 250px;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 50px 0 0 0;
+  border-radius: 10px;
+  color: #121212;
+}
+
+
+
+.right{
+  display: flex;
+  gap: 50px;
+  width: 1500px;
+  height: 700px;
+  padding: 50px 5px 5px 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+  
+  
+}
+
+.card{
+  width: 270px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow:  rgb(44, 36, 59) 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background: #121212;
+  background-color: rgb(44, 36, 59);
+  align-items: center;
+  color: black;
+  justify-content: center;
+  display: flex;
+  
+  
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+.username{
+  color: #fff;
+  padding: 20px 0 0 0;
+}
+
+.topics{
+  align-items: center;
+  text-align: center;
+}
+
+.topics2{
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  padding: 50px 0 0 0;
+  gap: 32px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+}
+
+ 

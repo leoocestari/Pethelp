@@ -2,9 +2,23 @@
   gap: 40px;
   display: flex;
   flex-direction: row;
-  background-color: black;
+  background-color: rgb(44, 36, 59);
   height: 6vh;
   align-items: center;
-  justify-content: end;
+  width: 100%;
+  justify-content: space-between;
+  color: #fff;
+  
+  
   padding: 32px;
+}
+
+.navlinks{
+  justify-content: end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+
 }

@@ -11,8 +11,10 @@ export default function Home () {
     <main className={Styles.main}>
     
       <nav className={Styles.navbar}>
+        <h1>Pethelp</h1>
+      <div className={Styles.navlinks}>
       <Link href="/login">
-        Login
+        Acesse ou Registre-se
       </Link>
       <Link href="/login">
         Login
@@ -23,9 +25,9 @@ export default function Home () {
       <Link href="/login">
         Login
       </Link>
+      </div>
       </nav>
       <Principal />
-      
       
     </main>
       
